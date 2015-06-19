@@ -8,4 +8,4 @@ android:
     - android-sdk-license-.+
 before_install:
   - chmod +x gradlew
-install: ./gradlew build -x test
+script: ./gradlew build -x test
