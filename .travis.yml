@@ -1,0 +1,11 @@
+language: android
+android:
+  components:
+    - build-tools-22.0.1
+    - android-22
+    - extra-android-m2repository
+  licenses:
+    - android-sdk-license-.+
+before_install:
+  - chmod +x gradlew
+script: ./gradlew build -x test
