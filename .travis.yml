@@ -1,5 +1,6 @@
 language: android
 android:
-  - android-22
+  components:
+    - android-22
 before_install:
   - chmod +x gradlew
